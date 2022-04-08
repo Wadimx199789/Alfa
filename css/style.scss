@@ -343,22 +343,25 @@ h6 {
         display: flex;
         justify-content: center;
 
-       
-        
+
+
     }
 
     &__content {
         position: relative;
         max-width: 641px;
         margin-left: 162px;
-        .quotes{
+
+        .quotes {
             position: absolute;
             content: "";
-            &-left{
+
+            &-left {
                 top: 150px;
                 left: -83px;
             }
-            &-right{
+
+            &-right {
                 bottom: -28px;
                 right: -70px;
             }
@@ -395,4 +398,96 @@ h6 {
         }
 
     }
+}
+
+// ------------------------footer-----------------------------------------------
+.footer {
+    background: #363130;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 63px;
+
+    &__call-order {
+        padding: 23px 54px;
+        border: 2px solid #FFFFFF;
+        color: inherit;
+        text-align: center;
+        max-width: 238px;
+        border-radius: 6px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        transition: all 0.3s ease-in-out;
+    }
+    &__call-order:hover{
+        color:#000000;
+        background-color: #FFFFFF;
+    }
+
+    &__columns {
+        display: flex;
+        justify-content: space-between;
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &-center {
+            display: flex;
+            column-gap: 196px;
+        }
+
+        &-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    &__categories {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        &-link {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__logo {
+        &-subtitle {
+            display: block;
+        }
+    }
+
+    &__socials {
+        &-subtitle {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #FFFFFF;
+            display: block;
+            max-width: 237px;
+            margin-bottom: 14px;
+        }
+
+        &-list {
+            display: flex;
+            column-gap: 20px;
+        }
+    }
+
+
 }
