@@ -349,4 +349,68 @@ h6 {
   line-height: 22px;
   color: #363130;
 }
+
+.founders {
+  padding-top: 101px;
+  padding-bottom: 137px;
+}
+
+.founders__inner {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.founders__content {
+  position: relative;
+  max-width: 641px;
+  margin-left: 162px;
+}
+
+.founders__content .quotes {
+  position: absolute;
+  content: "";
+}
+
+.founders__content .quotes-left {
+  top: 150px;
+  left: -83px;
+}
+
+.founders__content .quotes-right {
+  bottom: -28px;
+  right: -70px;
+}
+
+.founders__content-subtitle {
+  display: block;
+  margin-bottom: 9px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #000000;
+}
+
+.founders__content-title {
+  margin-bottom: 46px;
+}
+
+.founders__content-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.founders__content-text p:not(:last-child) {
+  margin-bottom: 25px;
+}
 /*# sourceMappingURL=style.css.map */

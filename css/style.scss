@@ -279,16 +279,18 @@ h6 {
     }
 
     &__advantage {
-        &--like{
+        &--like {
             position: relative;
         }
-        .like{
+
+        .like {
             position: absolute;
-            top:0;
-            right:0;
+            top: 0;
+            right: 0;
         }
-        &-image{
-            width:100%;
+
+        &-image {
+            width: 100%;
             text-align: center;
             margin-bottom: 11px;
         }
@@ -305,7 +307,8 @@ h6 {
             padding-bottom: 9px;
             margin-bottom: 14px;
         }
-        &-title::after{
+
+        &-title::after {
             position: absolute;
             left: 0;
             bottom: 0;
@@ -313,7 +316,7 @@ h6 {
             width: 106px;
             height: 2px;
             background: #319F1C;
-           
+
         }
 
         &-text {
@@ -325,6 +328,70 @@ h6 {
             font-size: 16px;
             line-height: 22px;
             color: #363130;
+        }
+
+    }
+}
+
+// ---------------------------founders----------------------------------------------
+.founders {
+    padding-top: 101px;
+    padding-bottom: 137px;
+
+    &__inner {
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+       
+        
+    }
+
+    &__content {
+        position: relative;
+        max-width: 641px;
+        margin-left: 162px;
+        .quotes{
+            position: absolute;
+            content: "";
+            &-left{
+                top: 150px;
+                left: -83px;
+            }
+            &-right{
+                bottom: -28px;
+                right: -70px;
+            }
+        }
+
+        &-subtitle {
+            display: block;
+            margin-bottom: 9px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+
+            color: #000000;
+        }
+
+        &-title {
+            margin-bottom: 46px
+        }
+
+        &-text {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+            & p:not(:last-child) {
+                margin-bottom: 25px;
+            }
         }
 
     }
