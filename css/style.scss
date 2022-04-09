@@ -400,6 +400,104 @@ h6 {
     }
 }
 
+// ------------------------find-------------------------------------------------
+.find {
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-form {
+        max-width: 670px;
+
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 52px;
+            color: #363130;
+            margin-bottom: 20px;
+        }
+
+
+        &__subtitle {
+            display: block;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+            margin-bottom: 47px;
+        }
+
+        &__field {
+            max-width: 507px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #8A8A8A;
+            margin-bottom: 20px;
+
+            &-input {
+                width: 100%;
+                padding-left: 30px;
+                padding-bottom: 13px;
+                padding-top: 13px;
+                border: 1px solid #319F1C;
+                box-sizing: border-box;
+                border-radius: 6px;
+            }
+
+            &-textarea {
+                width: 100%;
+                padding-left: 30px;
+                padding-bottom: 13px;
+                padding-top: 13px;
+                border: 1px solid #319F1C;
+                box-sizing: border-box;
+                border-radius: 6px;
+                height: 98px;
+                resize: none;
+            }
+        }
+
+        &__text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+        &__upload{
+        }
+        &__button {
+            display: block;
+            background: #319F1C;
+            box-shadow: 0px 4px 4px #319F1C;
+            border-radius: 6px;
+            padding: 13px 77px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            transition: all 0.3s ease-in-out;
+        }
+        &__button:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
 // ------------------------footer-----------------------------------------------
 .footer {
     background: #363130;
@@ -422,8 +520,9 @@ h6 {
         color: #FFFFFF;
         transition: all 0.3s ease-in-out;
     }
-    &__call-order:hover{
-        color:#000000;
+
+    &__call-order:hover {
+        color: #000000;
         background-color: #FFFFFF;
     }
 
